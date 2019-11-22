@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.xa.DruidXADataSource
+    druid:
+      master:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.87.130:3306/order?autoReconnect=true&useSSL=false&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+        username: root
+        password: 123456
+        maxPoolSize: 5
+      slave:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.87.130:3306/logs?autoReconnect=true&useSSL=false&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+        username: root
+        password: 123456
+        maxPoolSize: 5
+

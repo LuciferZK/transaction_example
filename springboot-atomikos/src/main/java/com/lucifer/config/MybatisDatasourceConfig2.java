@@ -40,7 +40,7 @@ public class MybatisDatasourceConfig2 {
 
 
     /**
-     * 设置SqlSessionFactory，每一个数据源一个SqlSessionFactory
+     * 设置SqlSessionFactory，每一个数据源一个SqlSessionFactoryBean
      *
      * @param dataSource
      * @return

@@ -10,7 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-atomikos</module>
-       <!-- <module>springboot-atomikos</module>-->
+        <module>springboot-atomikos</module>
+        <module>springcloud-nacos-seata</module>
+        <module>order-service</module>
     </modules>
 
 
